@@ -1,0 +1,21 @@
+/*mobile */
+
+@media (max-width:768px) {
+    .product .description {
+        display: none;
+    }
+    .navbar .account-navbar{
+        display: none;
+    }
+
+    .products .product{
+        width: 100%;
+    }
+    .text-center{
+        font-size: smaller;
+    }
+   .searchbox input{
+       width: auto;
+   }
+   
+}

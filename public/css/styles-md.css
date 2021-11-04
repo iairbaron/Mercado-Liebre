@@ -1,0 +1,11 @@
+/*tablet */
+
+@media (min-width: 361px) and (max-width: 769px) {
+    section.products .product {
+        width: calc(50% - 10px);
+    }
+}
+
+
+/* TODO: Para las versiones desktop y tablet mostrar el site y login navbar, pero ocultar la imagen
+del menú hamburguesa.*/

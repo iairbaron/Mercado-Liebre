@@ -1,0 +1,218 @@
+header {
+    padding: 30px 10px 10px;
+}
+.w-100 {
+    width: 100%;
+}
+.w-50 {
+    width: 50%;
+}
+.box-header {
+    display: contents;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.first-header {
+    display: flex;
+}
+
+.first-header h1 img {
+    width: 50%;
+    margin-left: 15%;
+}
+
+.padding-10 {
+    padding: 10px;
+}
+
+.text-center {
+    text-align: center;
+    width: 50%;
+}
+
+.searchbox input {
+    height: 50%;
+    width: 70%;
+    border-radius: 5px;
+}
+
+.navbar ul li {
+    margin: 5px 10px;
+}
+nav.navbar ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.account-navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.account-navbar > div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.burger-menu {
+    text-align: center;
+}
+
+.burger-menu i {
+    color: white;
+    margin: 5px;
+    background-color: blue;
+    padding: 5px;
+    display: none;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.price-discount {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+}
+
+.product-image {
+    border: 1px solid black;
+    border-radius: 100%;
+    width: fit-content;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: chartreuse;
+}
+.product-image:hover{
+    transform: rotate(90deg);
+    transition: 2s;
+
+}
+
+.price-w {
+    min-width: 30%;
+    order: 1;
+}
+.discount-w {
+    order: 2;
+    min-width: 70%;
+    color: green;
+}
+
+.product {
+    box-shadow: 0;
+    margin: 10px 5px;
+    background-color: white;
+    width: calc(25% - 10px);
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.product:hover {
+    box-shadow: 1px -2px 9px 5px rgba(168, 168, 168, 1);
+    transition: box-shadow 2s;
+}
+
+.product .product-content {
+    padding: 15px;
+    border-top: 1px solid #ebebeb;
+}
+.description {
+    opacity: 0;
+    margin: 15px;
+}
+
+.description:hover {
+    display: block;
+    opacity: 1;
+    transition: opacity 2s;
+}
+.description:hover {
+    transform: 10px;
+}
+
+.icons-margin {
+    margin-bottom: 1em;
+    margin-top: 2em;
+    color: rgb(38, 95, 226);
+}
+
+.footer {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+form {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 500px;
+}
+
+form input {
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 0;
+    padding: 10px;
+}
+
+form label {
+    margin-bottom: 10px;
+}
+
+.negrita {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+form button {
+    background-color: #0044AA;
+    width: 300px;
+    margin: 10px auto;
+    border-radius: 5px;
+    border: 0;
+    padding: 10px;
+    color: #fff
+}
+
+form button:hover {
+    background-color: #3570c8;
+}
+.footer{
+    margin:auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.footer > div {
+    margin: 0 10px;
+    width: calc(33% - 20px);
+}
+
+.footer i:hover{
+    color: lightblue;
+    transition: 1.5s;
+}
+
+.footer i{
+font-size: 18px;
+
+}
+
