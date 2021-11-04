@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const path = require("path");
 
-app.listen(8000);
+app.listen(process.env.PORT || 8000);
 
 //  / === "public" ///   /css/styles.css
 app.use(express.static(path.join(__dirname, "public")));
